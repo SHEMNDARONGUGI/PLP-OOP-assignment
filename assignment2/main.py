@@ -1,12 +1,8 @@
 from vehicles import Car, Plane
-while True:
-    brand = input("Brand Name: ")
-    model = input("Model: ")
     
-    car = Car(brand, model)
+car = Car("Mercedes", "GLE")
     
-    plane = Plane(brand, model)
+plane = Plane("Airbus", "380")
     
-    car.move()
-    
-    plane.move()
+car.move()
+plane.move()
